@@ -78,7 +78,7 @@ class IterativeQuickSort {
     public static void main(String args[])
     {
         IterativeQuickSort ob = new IterativeQuickSort();
-        int arr[] = {11, 9, 12, 7, 3};
+        int arr[] = {4,3,5,2,1,3,2,3};
         ob.QuickSort(arr, 0, arr.length - 1);
         ob.printArr(arr, arr.length);
     }
