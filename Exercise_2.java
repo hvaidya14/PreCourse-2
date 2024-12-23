@@ -28,7 +28,7 @@ class QuickSort
 
         while (i <= j) {
 
-            if (arr[i] > pivot && arr[j] < pivot) {
+            if (arr[i] > pivot && arr[j] <= pivot) {
                 swap(arr, i, j);
                 i++;
                 j--;
